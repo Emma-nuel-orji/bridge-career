@@ -7,7 +7,7 @@ from app.models import User
 
 
 class RegistrationForm(FlaskForm):
-    branch = SelectField('Branch', validators=[DataRequired()], choices=[(" "), ("Bridge-Industry"), ("Bridge-Medical"), ("Bridge-Professional")])
+    branch = SelectField('Visa Type', validators=[DataRequired()], choices=[(" "), ("Tourist Visa"), ("Business Visa"), ("Work Visa"), ("Transit Visa"), ("Student Visa")])
     firstname = StringField('First Name', validators=[DataRequired(), Length(min=2, max=20)])
     lastname = StringField('Last Name', validators=[DataRequired(), Length(min=2, max=20)])
     email = StringField('Email Address', validators=[DataRequired(), Email()])
@@ -41,7 +41,7 @@ class IndextForm(FlaskForm):
     question6 = RadioField('', validators=[DataRequired()], choices=[('Yes'), ('No')])
     email = StringField('Email', validators=[DataRequired(), Email()])
     number = StringField('Primary Phone', validators=[DataRequired()])
-    addres = StringField('Address', validators=[DataRequired(), Length(min=2, max=20)])
+    addres = StringField('Address', validators=[DataRequired(), Length(min=2, max=200)])
     addres2 = StringField('Address(2)', validators=[DataRequired(), Length(min=2, max=20)])
     state = StringField('State', validators=[DataRequired(), Length(min=2, max=20)])
     city = StringField('City', validators=[DataRequired(), Length(min=2, max=20)])
@@ -49,9 +49,9 @@ class IndextForm(FlaskForm):
     interest = StringField('Country Of Interest', validators=[DataRequired(), Length(min=2, max=200)])
     city2 = StringField('State/City', validators=[DataRequired(), Length(min=2, max=200)])
     reason = TextAreaField('Reason For the Travel', validators=[DataRequired()])
-    choice = SelectField('Choice of Accomodations', validators=[DataRequired()], choices=[("--Select One--"), ("Single Room"), ("Double Room"), ("Suite"), ("Villa")])
-    period = SelectField('Period of time', validators=[DataRequired()], choices=[("--Select One--"), ("Less Than 1 Month"), ("1 - 2 months"), ("2 - 4 months"), ("4 months and above ")])
-    budget = SelectField('Your Budget', validators=[DataRequired()], choices=[("--Select One--"), ("Less Than $50k"), ("$50k - $100"), ("$100k - $200"), ("$200k And Above ")])
+    choice = SelectField('Choice of Accomodations', validators=[DataRequired()], choices=[("--Select One--"), ("One Bedroom"), ("Two Bedroom"), ("Three Bedroom"), ("More")])
+    period = SelectField('Period of time', validators=[DataRequired()], choices=[("--Select One--"), ("Less Than 1 Month"), ("1 - 3 months"), ("3 - 6 months"), ("6 months and above ")])
+    budget = SelectField('Your Budget', validators=[DataRequired()], choices=[("--Select One--"), ("Less Than $1000"), ("$1000 - $5000"), ("$5000 - $10,000"), ("$10,000 And Above ")])
     submit = SubmitField('Submit ')
     
                               
