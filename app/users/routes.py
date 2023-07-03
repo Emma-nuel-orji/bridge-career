@@ -69,7 +69,7 @@ def register():
         # Send the email
         mail.send(msg)
 
-        flash(f'Welcome {form.username.data}! Your account has been created. Please check your email.', 'success')
+        flash(f'Welcome {form.username.data}! Your account has been created successfully. Please kindly fill the forms below.', 'success')
         return redirect(url_for('main.home'))
     
     return render_template("register.html", title='Register', form=form)
