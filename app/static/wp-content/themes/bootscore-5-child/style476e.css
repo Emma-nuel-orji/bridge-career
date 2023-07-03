@@ -1,0 +1,20 @@
+/*
+ Theme Name:   Bridge Careers
+ Description:  bootScore 5 Child Theme
+ Author:       39Bravo
+ Author URI:   https://www.39bravo.com/
+ Template:     bootscore-5
+ Version:      5.0.0.4
+ Text Domain:  bootscore
+*/
+
+/* 
+Add as many files as you need for development. 
+When you're done, merge them all in the style.css file to reduce file requests. 
+*/
+
+@import url("css/owl.carousel.min.css");
+@import url("css/owl.theme.default.min.css");
+@import url("css/general.css");
+@import url("css/custom.css");
+@import url("css/mobile.css");

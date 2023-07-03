@@ -1,0 +1,127 @@
+<section id="home" class="darkcurve">
+                        <div id="homeSlides" class="owl-carousel"><div class="single-slide" style="background-image:url(https://trinityemployment.com/wp-content/uploads/2022/04/slide-graphic.jpg);">
+                           
+                        </div><div class="single-slide" style="background-image:url(https://trinityemployment.com/wp-content/uploads/2022/01/hero-worker2.jpg);">
+                           
+                        </div><div class="single-slide" style="background-image:url(https://trinityemployment.com/wp-content/uploads/2022/02/hero-officeworker.jpg);">
+                           
+                        </div><div class="single-slide" style="background-image:url(https://trinityemployment.com/wp-content/uploads/2022/02/hero-medical.jpg);">
+                           
+                        </div></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="home-left">
+                                        <div class="home-icon">
+                                            <img src="">
+                                        </div>
+                                        <p><a class="btn btn-alt2" href="/jobs"><i class="fa-solid fa-magnifying-glass"></i> Find a Great Job</a></p>
+
+                                    </div>
+                                    <div class="home-right">
+                                        <div class="home-icon">
+                                            <img src="">
+                                        </div>
+                                        <p><a class="btn btn-alt2" href="/clients"><i class="fa-solid fa-people-group"></i> Hire Top Talent</a></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <style>
+                        section#home:after {background: url(https://trinityemployment.com/wp-content/uploads/2022/01/hero-worker2.jpg);
+                    </style><section id="jobcats">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-6">
+                                <div class="job_cat_single">
+                                        <a href="/jobs?area=healthcare"><h2 class="job_cat_title"><i class="fas fa-heartbeat"></i>Healthcare</h2></a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="job_cat_single">
+                                        <a href="/jobs?area=admin"><h2 class="job_cat_title"><i class="fas fa-briefcase"></i>Admin / Clerical</h2></a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="job_cat_single">
+                                        <a href="/jobs?area=manufacturing"><h2 class="job_cat_title"><i class="fas fa-cogs"></i>Manufacturing</h2></a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="job_cat_single">
+                                        <a href="/jobs?area=finance"><h2 class="job_cat_title"><i class="fas fa-calculator-alt"></i>Finance</h2></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><section id="reviews">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="reviews-left">
+                                        <p><img src="/wp-content/uploads/2021/12/reviews-1.svg" alt="" class="alignnone size-full wp-image-136"  role="img" /></p>
+<p><a class="btn btn-primary" target="_blank" href="https://www.google.com/search?q=bridge+careers+specialists&oq=bridge+careers+specialists&aqs=chrome..69i57j46i175i199i512j69i59j0i20i263i512j69i60l3.4119j0j4&sourceid=chrome&ie=UTF-8#lrd=0x87b6929cbcb4f877:0xc0e8be1f094fbd25,1,,,">View Our Google Reviews</a></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="reviews-right">
+                                        <p><div id="testimonialCarousel" class="owl-carousel"><div class="embed-container"><iframe src="https://www.youtube.com/embed/nCT5xp0g-XA" frameborder="0" allowfullscreen></iframe></div><div class="embed-container"><iframe src="https://www.youtube.com/embed/oaPLr6oh4oU" frameborder="0" allowfullscreen></iframe></div><div class="embed-container"><iframe src="https://www.youtube.com/embed/bzFS2puH5Tw" frameborder="0" allowfullscreen></iframe></div></div></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><section id="c2a" class="whitecurve">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="hired-left">
+                                        <h1>Our Leadership Team</h1>
+<p>Cory and Amber Minter started Bridge Career because they believed candidates and companies deserved a better relocation experience. After working with staffing companies who wasted people’s time, they chose to build a company focused on finding the right people, for the right job, in the right way. From our easy application process to personalized site visits with our clients, everything at Bridge Career is shaped by the value we place on people and their time.</p>
+<p><a class="btn btn-alt" href="/our-team">View Our Team</a></p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hired-right">
+                                        <div class="hired-img" style="background:url(https://trinityemployment.com/wp-content/uploads/2021/12/trinity-leadership.jpg);"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><section id="concierge" class="darkcurve">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="concierge-wrap">
+                                        <div class="concierge-icon">
+                                            <img src="https://trinityemployment.com/wp-content/uploads/2021/12/icon-concierge2.png">
+                                        </div>
+                                        <p><a href="/candidates" class="btn btn-primary">As A Candidate</a> <a href="/clients" class="btn btn-outline">As A Client</a> </p>
+<p class="quote">I have had the pleasure of working with Bridge Careers Travel Agencies over the past 3 years. Bridge Career continues to take the time to understand the staffing position I am seeking to fulfill, and genuinely cares that my needs have been satisfied.  <strong>Office Manager of Tulsa Oncology Clinic</strong></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section><section id="support">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="support-wrapper">
+                                        <img src="https://trinityemployment.com/wp-content/uploads/2022/01/watering.svg">
+                                        <h2>Staff an employee, <span>support our community</span></h2>
+<p>Our company culture is defined by the value we place on serving people. As a faith driven organization, we believe our responsibility as a company is bigger than the services we provide. Bridge Career invests a portion of all company revenue in local non-profits making a positive impact in our community. </p>
+<p><a class="btn btn-primary" href="/support">Learn More</a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>{"id":2,"date":"2021-12-04T16:09:41","date_gmt":"2021-12-04T16:09:41","guid":{"rendered":"http:\/\/trinityemployment.flywheelsites.com\/?page_id=2"},"modified":"2022-11-15T13:13:09","modified_gmt":"2022-11-15T19:13:09","slug":"home","status":"publish","type":"page","link":"https:\/\/trinityemployment.com\/","title":{"rendered":"Home"},"content":{"rendered":"\r\n\r\n","protected":false},"excerpt":{"rendered":"","protected":false},"author":1,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"page-blank-without-container.php","meta":{"episode_type":"","audio_file":"","cover_image":"","cover_image_id":"","duration":"","filesize":"","date_recorded":"","explicit":"","block":"","filesize_raw":""},"yoast_head":"<!-- This site is optimized with the Yoast SEO plugin v19.9 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Bridge Careers - Tulsa Staffing Agency<\/title>\n<meta name=\"description\" content=\"Bridge Careers Travel Agencies is a regional employment staffing agency in Tulsa committed to providing the highest quality experience for candidates and clients in the industry.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/trinityemployment.com\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Bridge Careers - Tulsa Staffing Agency\" \/>\n<meta property=\"og:description\" content=\"Bridge Careers Travel Agencies is a regional employment staffing agency in Tulsa committed to providing the highest quality experience for candidates and clients in the industry.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/trinityemployment.com\/\" \/>\n<meta property=\"og:site_name\" content=\"Bridge Careers\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/trinityemployment?fref=ts\" \/>\n<meta property=\"article:modified_time\" content=\"2022-11-15T19:13:09+00:00\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@trinitystaffing\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/trinityemployment.com\/\",\"url\":\"https:\/\/trinityemployment.com\/\",\"name\":\"Bridge Careers - Tulsa Staffing Agency\",\"isPartOf\":{\"@id\":\"https:\/\/trinityemployment.com\/#website\"},\"datePublished\":\"2021-12-04T16:09:41+00:00\",\"dateModified\":\"2022-11-15T19:13:09+00:00\",\"description\":\"Bridge Careers Travel Agencies is a regional employment staffing agency in Tulsa committed to providing the highest quality experience for candidates and clients in the industry.\",\"breadcrumb\":{\"@id\":\"https:\/\/trinityemployment.com\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/trinityemployment.com\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/trinityemployment.com\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/trinityemployment.com\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/trinityemployment.com\/#website\",\"url\":\"https:\/\/trinityemployment.com\/\",\"name\":\"Bridge Careers - Tulsa Staffing Agency\",\"description\":\"\",\"publisher\":{\"@id\":\"https:\/\/trinityemployment.com\/#organization\"},\"alternateName\":\"Bridge Careers\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/trinityemployment.com\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\/\/trinityemployment.com\/#organization\",\"name\":\"Bridge Careers - Tulsa Staffing Agency\",\"alternateName\":\"Bridge Careers\",\"url\":\"https:\/\/trinityemployment.com\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/trinityemployment.com\/#\/schema\/logo\/image\/\",\"url\":\"https:\/\/trinityemployment.com\/wp-content\/uploads\/2021\/12\/logo-color.svg\",\"contentUrl\":\"https:\/\/trinityemployment.com\/wp-content\/uploads\/2021\/12\/logo-color.svg\",\"width\":261,\"height\":60,\"caption\":\"Bridge Careers - Tulsa Staffing Agency\"},\"image\":{\"@id\":\"https:\/\/trinityemployment.com\/#\/schema\/logo\/image\/\"},\"sameAs\":[\"https:\/\/www.linkedin.com\/company\/trinity-employment-specialists?trk=job_view_topcard_company_name\",\"https:\/\/www.facebook.com\/trinityemployment?fref=ts\",\"https:\/\/twitter.com\/trinitystaffing\"]}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->","yoast_head_json":{"title":"Bridge Careers - Tulsa Staffing Agency","description":"Bridge Careers Travel Agencies is a regional employment staffing agency in Tulsa committed to providing the highest quality experience for candidates and clients in the industry.","robots":{"index":"index","follow":"follow","max-snippet":"max-snippet:-1","max-image-preview":"max-image-preview:large","max-video-preview":"max-video-preview:-1"},"canonical":"https:\/\/trinityemployment.com\/","og_locale":"en_US","og_type":"article","og_title":"Bridge Careers - Tulsa Staffing Agency","og_description":"Bridge Careers Travel Agencies is a regional employment staffing agency in Tulsa committed to providing the highest quality experience for candidates and clients in the industry.","og_url":"https:\/\/trinityemployment.com\/","og_site_name":"Bridge Careers","article_publisher":"https:\/\/www.facebook.com\/trinityemployment?fref=ts","article_modified_time":"2022-11-15T19:13:09+00:00","twitter_card":"summary_large_image","twitter_site":"@trinitystaffing","twitter_misc":{"Est. reading time":"1 minute"},"schema":{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/trinityemployment.com\/","url":"https:\/\/trinityemployment.com\/","name":"Bridge Careers - Tulsa Staffing Agency","isPartOf":{"@id":"https:\/\/trinityemployment.com\/#website"},"datePublished":"2021-12-04T16:09:41+00:00","dateModified":"2022-11-15T19:13:09+00:00","description":"Bridge Careers Travel Agencies is a regional employment staffing agency in Tulsa committed to providing the highest quality experience for candidates and clients in the industry.","breadcrumb":{"@id":"https:\/\/trinityemployment.com\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/trinityemployment.com\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/trinityemployment.com\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/trinityemployment.com\/"},{"@type":"ListItem","position":2,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/trinityemployment.com\/#website","url":"https:\/\/trinityemployment.com\/","name":"Bridge Careers - Tulsa Staffing Agency","description":"","publisher":{"@id":"https:\/\/trinityemployment.com\/#organization"},"alternateName":"Bridge Careers","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/trinityemployment.com\/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/trinityemployment.com\/#organization","name":"Bridge Careers - Tulsa Staffing Agency","alternateName":"Bridge Careers","url":"https:\/\/trinityemployment.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/trinityemployment.com\/#\/schema\/logo\/image\/","url":"https:\/\/trinityemployment.com\/wp-content\/uploads\/2021\/12\/logo-color.svg","contentUrl":"https:\/\/trinityemployment.com\/wp-content\/uploads\/2021\/12\/logo-color.svg","width":261,"height":60,"caption":"Bridge Careers - Tulsa Staffing Agency"},"image":{"@id":"https:\/\/trinityemployment.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.linkedin.com\/company\/trinity-employment-specialists?trk=job_view_topcard_company_name","https:\/\/www.facebook.com\/trinityemployment?fref=ts","https:\/\/twitter.com\/trinitystaffing"]}]}},"_links":{"self":[{"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/pages\/2"}],"collection":[{"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/comments?post=2"}],"version-history":[{"count":1,"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/pages\/2\/revisions"}],"predecessor-version":[{"id":6,"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/pages\/2\/revisions\/6"}],"wp:attachment":[{"href":"https:\/\/trinityemployment.com\/wp-json\/wp\/v2\/media?parent=2"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}

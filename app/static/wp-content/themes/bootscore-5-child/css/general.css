@@ -1,0 +1,113 @@
+/* Default Child Theme Styles */
+
+body {
+    font-size: 1.15rem !important;
+    line-height: 2em !important;
+}
+
+
+
+
+.navbar-nav .nav-link {
+    padding: 35px 25px !important;
+    text-transform: uppercase;
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+
+body.home .fixed-top.bg-light {
+    background-color: transparent !important;
+}
+
+body.home #nav-main {
+    transition-duration: 0.35s;
+}
+body.home #nav-main.nav-scroll {
+    background: #fff !important;
+    transition-duration: 0.35s;
+}
+
+
+
+
+.navbar-brand .logo {
+    position: absolute;
+    opacity: 1;
+    transition-duration: 0.35s;
+    max-width: 300px;
+    min-width: 200px;
+}
+.navbar-brand .logo_alt {
+    opacity: 0;
+    transition-duration: 0.35s;
+}
+body.home #nav-main.nav-scroll .logo {
+    opacity: 0;
+    transition-duration: 0.35s;
+}
+body.home #nav-main.nav-scroll .logo_alt {
+    opacity: 1;
+    transition-duration: 0.35s;
+}
+body:not(.home) .navbar-brand .logo_alt {
+    opacity: 1;
+}
+
+
+body:not(.home) .single-hero {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+
+
+
+
+.btn, [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    text-transform: uppercase;
+    min-width: 150px;
+    padding: 10px 35px !important;
+}
+.btn-white {
+    background: #fff !important;
+}
+.btn-primary, .btn-alt, [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    color: #fff !important;
+}
+.btn-link {
+    text-decoration: none !important;
+}
+#share-buttons .btn {
+    width: 2rem !important;
+    height: 2rem;
+    padding: 5px !important;
+    border-radius: 50%;
+    min-width: 0 !important;
+}
+.btn-tumblr, .btn-buffer, .btn-mix, .btn-vk, .btn-reddit {
+    display: none !important;
+}
+
+
+
+.top-button .btn {
+    padding: 22px !important;
+    border-radius: 50%;
+    width: 70px !important;
+    height: 70px !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    border-color: rgba(255,255,255,0.3);
+}
+
+
+
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    padding: 5px 10px;
+    margin: 0 0 10px !important;
+    width: 100%;
+    border-radius: 10px;
+}

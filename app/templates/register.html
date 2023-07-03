@@ -1,0 +1,540 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from hrcenter.ontempworks.com/en/TrinityEmployment/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2023 01:58:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Register - HRCenter</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+        <link rel="shortcut icon" href="static/images/logo6.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="../../../fonts.googleapis.com/cssd116.css?family=Open+Sans:400,400i,600,700" rel="stylesheet" />
+    
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="HRCenter" />
+    <meta property="og:title" content="Register" />
+    <meta name="twitter:title" content="Register" />
+    <meta property="og:url" content="index.html" />
+        <meta property="og:description" content="" />
+        <meta name="twitter:description" content="" />
+            <meta property="og:image" content="Config/PreviewLogo.html" />
+        <meta name="twitter:image" content="Config/PreviewLogo.html" />
+
+
+    <link href="https://hrcenter.ontempworks.com/Content/css?v=jLaBs6kkj2ocA9VtuYd6aAxIa-FNqdW2G0F6QQthrGk1" rel="stylesheet"/>
+
+    
+<script src="https://hrcenter.ontempworks.com/bundles/material?v=rIoMhMrll1damiZL2MbHl2xE8hIV85RqBbdbjgceyso1"></script>
+
+<link href="https://hrcenter.ontempworks.com/Content/material?v=w6q9QizQCNf3LjsCqT0CfOT694lX1GoYmSc9wQEjfp01" rel="stylesheet"/>
+
+<link rel="stylesheet" href="../../../fonts.googleapis.com/icone91f.css?family=Material+Icons">
+
+
+    <link href="https://hrcenter.ontempworks.com/Content/bootstrap-select?v=1xH7WnYYEVAXVcvFWmOzRsSRJMWktPqInuwCDafjr7E1" rel="stylesheet"/>
+
+    
+
+<link href="https://hrcenter.ontempworks.com/Content/Theme.less?offsetBackgroundColor=%23337AB7&amp;offsetBackgroundText=%23ffffff&amp;primaryActionColor=%23179FDA" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    
+</style>
+</head>
+{%with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+          {% for category, message in messages %}
+           <div class="alert alert-{{ category }}">
+               {{ message }}
+           </div> <br>
+         {% endfor %}
+    {% endif %}
+    
+    {% endwith %}
+<body id="register-page" dir="ltr" class="tw-style-account-layout tw-item-account tw-item-register tw-item-">
+
+    <div id="app-loading-cover" aria-hidden="true" style="display: none;"></div>
+
+    
+
+
+<nav id="uppernavbar" class="navbar fixed-top navbar-expand-lg navbar-dark tw-style-navbar-upper scrollhide-nav">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand" href="?inactivity=False"  title="Dashboard">
+            <img id="topLeftLogo" alt="HRCenter" src="static/images/logo6.png" class="img-responsive tw-style-small-logo" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavSection" aria-controls="collapsingNavSection" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="collapsingNavSection">
+            <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <div class="d-flex align-items-center justify-content-end">
+                    
+        <div class="col-auto text-right">
+            
+
+        <div class="dropdown">
+            <span>English, </span>
+            <a class="dropdown-toggle text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Change Language
+            </a>
+            <div id="languageSwitcher" class="dropdown-menu">
+                    <a class="dropdown-item" href="#" selected=&#39;selected&#39;>English</a>                                    
+                    <a class="dropdown-item" href="#" >Espa&ntilde;ol</a>                            
+                </div>
+        </div>
+
+        </div>
+
+                </div>
+            </div>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+    <main role="main">
+        
+
+
+<form action="" autocomplete="off" class="form-horizontal" id="Register" method="POST" enctype="multipart/form-data" role="form"> 
+  {{ form.hidden_tag() }}
+ <input autocomplete="off" name="hidden" type="text" style="display: none;" />
+<input name="__RequestVerificationToken" type="hidden" value="D2ZFNllBa8MAEqSfc_0bk5T1NQd7Q2DcZ7liD2hvCxkxE2JqWaG3pX4YB8xjSYYaUrYU2yVIKSnDysWR7E67Y2xibur_BifIUcn_WZzrg_A1" /><input id="docAction" name="docAction" type="hidden" value="/en/TrinityEmployment/DocumentUpload" /><input id="ResumeId" name="ResumeId" type="hidden" value="" /><input id="latitude" name="latitude" type="hidden" value="" /><input id="longitude" name="longitude" type="hidden" value="" /><input id="PassedBranch" name="PassedBranch" type="hidden" value="False" /><input id="PassedWorkflow" name="PassedWorkflow" type="hidden" value="False" /><span id="BranchesByLocationConfig" name="BranchesByLocationConfig" type="hidden" value="False"></span><input id="GetBranchListRoute" name="GetBranchListRoute" type="hidden" value="/en/TrinityEmployment/GetBranches" /><input Value="" id="SetBranchID" name="SetBranchID" type="hidden" value="" />    <div id="registration-container" class="no-landing-page-message  container-fluid pt-5 mt-5">
+        
+
+
+        <div class="row">
+                <div class="col-12 mb-n2 mx-auto ml-lg-auto mr-lg-0">
+                    <div class="title-card mx-auto">
+                        <div class="title">
+                            Register
+                        </div>
+                    </div>
+                </div>
+
+            <div class="hrc-card mx-auto mr-lg-auto ml-lg-0" style="width:530px;">
+
+                
+
+<div class="card-header-container row no-gutters align-items-center">
+    <div class="col-3 pr-4">
+        <div class="card-logo-line"></div>
+    </div>
+    <div class="col-6 card-header-logo">
+        <h1>
+                <img alt="TrinityEmployment login" id="card_Logo" src="static/images/logo4.png" class="mx-auto" />
+        </h1>
+    </div>
+    <div class="pl-4 col-3">
+        <div class="card-logo-line"></div>
+    </div>
+</div>
+
+
+                <div class="text-center pb-2">
+                    Already have an account?
+                    <a href="TenantLogin.html" class="">
+                        Sign in now
+                    </a>
+                </div>
+
+                <hr />
+
+
+                    <div class="row">
+                        <div class="col-12 col-sm-auto">
+                            <blockquote id="postal-code-description">
+                                <div class="bq-title">
+                                    Find an office near you
+                                </div>
+                                <div class="bq-content">
+                                 Please select a branch
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                {{ form.branch.label(class='form-control-label tw-item-editable mdl-textfield__input tw-item-editable') }}
+                              {% if form.branch.errors %}
+                                  {{ form.branch(class='form-control form-control-lg is-invalid') }}
+                                  <div class="invalid-feedback">
+                                      {% for error in form.branch.errors %}
+                                          <span>{{ error }}</span>
+                                      {% endfor %}
+                                  </div>
+                              {% else %}
+                                   {{ form.branch(class='form-control form-control-lg') }}
+                              {% endif %}
+                                  <label class="tw-item-select-label" for="BranchId"></label>
+                                  <input id="BranchIdOn" name="BranchIdOn" type="hidden" value="true" />
+                                  <input id="BranchIdReq" name="BranchIdReq" type="hidden" value="true" />
+                            </div>
+                            <span class="field-validation-valid" data-valmsg-for="BranchId" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+
+                
+                <div class="row">
+                    <div class="col-12 col-sm-auto">
+                        <blockquote>
+                            <div class="bq-title">
+                                Basic Information
+                            </div>
+                            <div class="bq-content">
+                                Tell us a little about yourself.
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              {{ form.firstname.label(class='form-control-label tw-item-editable mdl-textfield__input tw-item-editable') }}
+                              {% if form.firstname.errors %}
+                                  {{ form.firstname(class='form-control form-control-lg is-invalid') }}
+                                  <div class="invalid-feedback">
+                                      {% for error in form.firstname.errors %}
+                                          <span>{{ error }}</span>
+                                      {% endfor %}
+                                  </div>
+                              {% else %}
+                                   {{ form.firstname(class='form-control form-control-lg') }}
+                              {% endif %}
+                            
+                            <label class="mdl-textfield__label" for="FirstName"></label>
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+                        <input id="FirstNameOn" name="FirstNameOn" type="hidden" value="True" />
+                        <input id="FirstNameReq" name="FirstNameReq" type="hidden" value="True" />
+                    </div>
+
+
+                    <div class="col-12 col-sm-6">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                          {{ form.lastname.label(class='form-control-label tw-item-editable mdl-textfield__input tw-item-editable') }}
+                              {% if form.lastname.errors %}
+                                  {{ form.lastname(class='form-control form-control-lg is-invalid') }}
+                                  <div class="invalid-feedback">
+                                      {% for error in form.lastname.errors %}
+                                          <span>{{ error }}</span>
+                                      {% endfor %}
+                                  </div>
+                              {% else %}
+                                   {{ form.lastname(class='form-control form-control-lg') }}
+                              {% endif %}
+                            
+                            <label class="mdl-textfield__label" for="LastName">Last Name</label>
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+                        <input id="LastNameOn" name="LastNameOn" type="hidden" value="True" />
+                        <input id="LastNameReq" name="LastNameReq" type="hidden" value="True" />
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              {{ form.email.label(class='form-control-label mdl-textfield__input tw-item-editable' ) }}
+                                {% if form.email.errors %}
+                                    {{ form.email(class='form-control form-control-lg is-invalid') }}
+                                    <div class="invalid-feedback">
+                                        {% for error in form.email.errors %}
+                                            <span>{{ error }}</span>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                     {{ form.email(class='form-control form-control-lg') }}
+                                {% endif %}
+                             
+                                <label class="mdl-textfield__label" for="EmailAddress"></label>
+                            </div>
+                            <span class="field-validation-valid" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+                            <input id="EmailAddressOn" name="EmailAddressOn" type="hidden" value="True" />
+                            <input id="EmailAddressReq" name="EmailAddressReq" type="hidden" value="True" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              {{ form.phone.label(class='form-control-label mdl-textfield__input tw-item-editable' ) }}
+                                {% if form.phone.errors %}
+                                    {{ form.phone(class='form-control form-control-lg is-invalid') }}
+                                    <div class="invalid-feedback">
+                                        {% for error in form.phone.errors %}
+                                            <span>{{ error }}</span>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                     {{ form.phone(class='form-control form-control-lg') }}
+                                {% endif %}
+                          <label class="mdl-textfield__label" for="PhoneNumber"></label>
+                            </div>
+                            <span class="field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+                            <input id="PhoneNumberOn" name="PhoneNumberOn" type="hidden" value="True" />
+                            <input id="PhoneNumberReq" name="PhoneNumberReq" type="hidden" value="True" />
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              {{ form.security.label(class='form-control-label tw-item-editable mdl-textfield__input tw-item-editable ShortSSNMask' ) }}
+                              {% if form.security.errors %}
+                                    {{ form.security(class='form-control form-control-lg is-invalid') }}
+                                    <div class="invalid-feedback">
+                                        {% for error in form.security.errors %}
+                                            <span>{{ error }}</span>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                     {{ form.security(class='form-control form-control-lg') }}
+                                {% endif %}
+                              
+                              <label class="mdl-textfield__label" for="ShortSSN"></label>
+                            </div>
+                            <span class="field-validation-valid" data-valmsg-for="ShortSSN" data-valmsg-replace="true"></span>
+                            <input id="ShortSSNOn" name="ShortSSNOn" type="hidden" value="True" />
+                            <input id="ShortSSNReq" name="ShortSSNReq" type="hidden" value="True" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-auto">
+                                <blockquote>
+                                    <div class="bq-content">
+                                        Please select a workflow:
+                                    </div>
+                                </blockquote>
+                            <div class="form-group" id="Workflow-group">
+                                <select class="tw-item-editable tw-item-select-text" data-val="true" data-val-required="The Workflow Name field is required." id="WorkflowName" name="WorkflowName"><option class="ALL" value="apply now">Apply Now</option></select>
+<label class="tw-item-select-label" for="WorkflowName">Workflow Name</label>
+<input id="WorkflowNameOn" name="WorkflowNameOn" type="hidden" value="True" />
+<input id="WorkflowNameReq" name="WorkflowNameReq" type="hidden" value="True" />
+
+                            </div>
+                            <span class="field-validation-valid" data-valmsg-for="WorkflowName" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input id="IntialEmploymentCategory" name="IntialEmploymentCategory" type="hidden" value="" />
+                            {{ form.position.label(class='form-control-label tw-item-editable mdl-textfield__input tw-item-editable') }}
+                              {% if form.position.errors %}
+                                  {{ form.position(class='form-control form-control-lg is-invalid') }}
+                                  <div class="invalid-feedback">
+                                      {% for error in form.position.errors %}
+                                          <span>{{ error }}</span>
+                                      {% endfor %}
+                                  </div>
+                              {% else %}
+                                   {{ form.position(class='form-control form-control-lg') }}
+                              {% endif %}
+                            
+                            <label class="tw-item-select-label" for="EmploymentCategoryId"></label>
+                            <input id="EmploymentCategoryIdOn" name="EmploymentCategoryIdOn" type="hidden" value="True" />
+                            <input id="EmploymentCategoryIdReq" name="EmploymentCategoryIdReq" type="hidden" value="False" />
+
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="EmploymentCategoryId" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+                            <div class="row">
+                    <div class="col-12 col-sm-auto">
+                        <blockquote>
+                            <div class="bq-title">
+                                Upload a resume
+                            </div>
+                            <div class="bq-content">
+                                If you already have a resume, uploading it now can save you time.
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="resume">Resume</label>
+                    <input type="file" id="resume" name="resume">
+                  </div>
+                <div class="row">
+                    <div class="col-12 col-sm-auto">
+                        <blockquote>
+                            <div class="bq-title">
+                                Create an account
+                            </div>
+                            <div class="bq-content">
+                                Creating an account allows you to come back and update your information later.
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                          {{ form.username.label(class='form-control-label mdl-textfield__input tw-item-editable ' ) }}
+                                {% if form.username.errors %}
+                                    {{ form.username(class='form-control form-control-lg is-invalid') }}
+                                    <div class="invalid-feedback">
+                                        {% for error in form.username.errors %}
+                                            <span>{{ error }}</span>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                     {{ form.username(class='form-control form-control-lg') }}
+                                {% endif %}
+                           
+                            <label class="mdl-textfield__label" for="UserName"></label>
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+                        <input id="UserNameOn" name="UserNameOn" type="hidden" value="True" />
+                        <input id="UserNameReq" name="UserNameReq" type="hidden" value="True" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                          {{ form.password.label(class='form-control-label mdl-textfield__input tw-item-editable') }}
+                          {% if form.password.errors %}
+                              {{ form.password(class='form-control form-control-lg is-invalid') }}
+                              <div class="invalid-feedback">
+                                  {% for error in form.password.errors %}
+                                      <span>{{ error }}</span>
+                                  {% endfor %}
+                              </div>
+                          {% else %}
+                               {{ form.password(class='form-control form-control-lg') }}
+                          {% endif %}
+                          
+                            <label class="mdl-textfield__label" for="Password"></label>
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                        <input id="PasswordOn" name="PasswordOn" type="hidden" value="True" />
+                        <input id="PasswordReq" name="PasswordReq" type="hidden" value="True" />
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                          {{ form.confirm_password.label(class='form-control-label mdl-textfield__input tw-item-editable') }}
+                            {% if form.confirm_password.errors %}
+                                {{ form.confirm_password(class='form-control form-control-lg is-invalid') }}
+                                <div class="invalid-feedback">
+                                    {% for error in form.confirm_password.errors %}
+                                        <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                            {% else %}
+                                 {{ form.confirm_password(class='form-control form-control-lg') }}
+                            {% endif %}
+                          
+                            <label class="mdl-textfield__label" for="ConfirmPassword"></label>
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+                        <input id="ConfirmPasswordOn" name="ConfirmPasswordOn" type="hidden" value="True" />
+                        <input id="ConfirmPasswordReq" name="ConfirmPasswordReq" type="hidden" value="True" />
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center pt-4 pb-5">
+                      {{ form.submit( class="page-submission mdl-button mdl-button--raised ladda-button mdl-button--colored col-12 col-sm-6 btn btn-success") }}
+                        
+                    </div>
+                </div>
+            </div> <!-- .hrc-card -->
+
+        </div> <!-- .row -->
+    </div> <!-- #registration-container -->
+</form>
+    </main>
+
+    <div role="contentinfo">
+    <div class="">
+        <div class="col-md-12">
+            <img alt="TempWorks Software, Inc." src="static/Content/Images/tw_logo_c4c4c4.png" class="mx-auto d-block tw-style-large-logo" />
+        </div>
+    </div>
+    <div class="">
+        <div class="col-md-12 text-center">
+            <span>Powered by TempWorks Software, Inc. &copy; 2023 <br />23.06.15.1610</span>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://hrcenter.ontempworks.com/bundles/jquery?v=UcXDI1K2hTawe_dbQA6e7hXiQmx0sFAKDVaZgKUBxnk1"></script>
+
+
+    <script src="https://hrcenter.ontempworks.com/bundles/jqueryval?v=eRsT7F9pnEaVLjBHuCgzvaDps5wZc42yKMlLiaZcFsc1"></script>
+
+    <script src="https://hrcenter.ontempworks.com/bundles/bootstrap-select?v=I2BFDjzzTl5B0LiqXEMBcsTS5ipLoPOykkyACpi1u7E1"></script>
+
+    
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-140226188-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    
+    
+<link href="https://hrcenter.ontempworks.com/Content/uppy?v=CEyoikSVsLMh4-uSnw6Gggt8ujQYPSwLpTrOUTKg2MQ1" rel="stylesheet"/>
+
+<script src="https://hrcenter.ontempworks.com/bundles/uppy?v=ZZMo8weoQlq6FpVl7biKc5qztnIXwU_qYx6xvKgvyc81"></script>
+
+
+
+
+<script>
+window.uppyLocaleStrings = {
+    strings: {"addMoreFiles":"Add more files","dashboardTitle":"File Uploader Dashboard","done":"Done","removeFile":"Remove File","editFile":"Edit","editing":"Editing %{file}","edit":"Edit","finishEditingFile":"Finish Editing","dropPaste":"Drop files here or %{browse}","browse":"browse","uploadComplete":"Upload complete","resumeUpload":"Resume upload","pauseUpload":"Pause upload","retryUpload":"Retry upload","xFilesSelected":["%{smart_count} file selected","%{smart_count} files selected"],"cancel":"Cancel","uploading":"Uploading","complete":"Upload complete"},
+    meta: {"note":"DOC or PDF files only, up to 1 MB","name":"Name","namePlaceholder":"File name","caption":"Caption","captionPlaceholder":"Describe what the image is about"}
+};
+</script>
+
+    <script src="https://hrcenter.ontempworks.com/bundles/register?v=ak-CgrZwha2OWHOlArXgvNpRGP9pwm9agt2onbIeZDI1"></script>
+
+
+
+
+    <script type ='text/javascript'></script>
+    <script src="https://hrcenter.ontempworks.com/bundles/unsupportedbrowser?v=acD0uaUST9uSSjhixfKoAbDz1jQYMDe-KgihmFlO8F01"></script>
+    <div class="modal fade" id="browserUnsupportedModal" tabindex="-1" role="dialog" aria-labelledby="browserUnsupportedLabel" aria-hidden="true">
+        <input id="supportedBrowserJson" name="supportedBrowserJson" type="hidden" value="[{&quot;BrowserName&quot;:&quot;Chrome&quot;,&quot;BrowserPlatform&quot;:&quot;all&quot;,&quot;MinSupportedVersion&quot;:&quot;77&quot;},{&quot;BrowserName&quot;:&quot;Firefox&quot;,&quot;BrowserPlatform&quot;:&quot;all&quot;,&quot;MinSupportedVersion&quot;:&quot;68&quot;},{&quot;BrowserName&quot;:&quot;IE&quot;,&quot;BrowserPlatform&quot;:&quot;all&quot;,&quot;MinSupportedVersion&quot;:&quot;11&quot;},{&quot;BrowserName&quot;:&quot;Edge&quot;,&quot;BrowserPlatform&quot;:&quot;all&quot;,&quot;MinSupportedVersion&quot;:&quot;17&quot;},{&quot;BrowserName&quot;:&quot;Safari&quot;,&quot;BrowserPlatform&quot;:&quot;all&quot;,&quot;MinSupportedVersion&quot;:&quot;12&quot;},{&quot;BrowserName&quot;:&quot;Firefox&quot;,&quot;BrowserPlatform&quot;:&quot;mobile&quot;,&quot;MinSupportedVersion&quot;:&quot;20&quot;},{&quot;BrowserName&quot;:&quot;Firefox&quot;,&quot;BrowserPlatform&quot;:&quot;tablet&quot;,&quot;MinSupportedVersion&quot;:&quot;20&quot;}]" />
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="browserUnsupportedLabel">Unsupported Browser</h5>
+                </div>
+                <div class="modal-body">
+                    Please upgrade to a current version of Google Chrome, Mozilla Firefox, Safari, or Edge. You may continue using your current browser,  however you may experience unexpected problems.
+                </div>
+                <div class="modal-footer">
+                    <button class="mdl-button mdl-button--raised ladda-button mdl-button--colored" data-dismiss="modal" data-style="zoom-out" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Mirrored from hrcenter.ontempworks.com/en/TrinityEmployment/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jun 2023 01:58:41 GMT -->
+</html>
+

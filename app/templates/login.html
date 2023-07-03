@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Desmonnd Best Funiture</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <!--unistore Bootstrap link -->
+  <link href="static/new/assets/css/bootstrap.css" rel="stylesheet">
+  <link href="static/new/assets/css/custom.css" rel="stylesheet">
+  <link href="static/new/assets/css/carousel.css" rel="stylesheet">
+  <link href="static/new/assets/css/carousel-recommendation.css" rel="stylesheet">
+  <link href="static/new/assets/ionicons-2.0.1/css/ionicons.css" rel="stylesheet">
+
+</head>
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+         {% for category, message in messages %}
+             <div class="alert alert-{{ category }}">
+                 {{ message }}
+             </div>
+         {% endfor %}
+    {% endif %}
+  {% endwith %}
+<body>
+    <hr class="offset-lg hidden-xs">
+    <hr class="offset-md">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-4 col-md-8 col-md-offset-2 md-padding jumbotron">
+          <h1 class="align-center">New Customer</h1>
+          <br>
+
+          <form class="join" action="" method="POST" enctype="multipart/form-data" novalidate>
+            <div class="container-fluid">
+                {{ form.hidden_tag() }}
+              <div class="row">
+              <fieldset class="form-group">
+                <div class="form-group">
+                    {{ form.email.label(class='form-control-label') }}
+                    {% if form.email.errors %}
+                        {{ form.email(class='form-control form-control-lg is-invalid') }}
+                        <div class="invalid-feedback">
+                            {% for error in form.email.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                         {{ form.email(class='form-control form-control-lg') }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.password.label(class='form-control-label') }}
+                    {% if form.password.errors %}
+                        {{ form.password(class='form-control form-control-lg is-invalid') }}
+                        <div class="invalid-feedback">
+                            {% for error in form.password.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                         {{ form.password(class='form-control form-control-lg') }}
+                    {% endif %}
+                </div>
+                <div class="form-check">
+                    {{ form.remember(class="form-check-input") }}
+                    {{ form.remember.label(class="form-check-input-label") }}
+                </div>
+              </fieldset>
+            </div>
+        </div>
+
+        <div class="form-group ">
+            {{ form.submit(class='btn btn-primary') }}
+        </div>
+    <h5 class="text-muted ml-2">
+        <a  href="{{ url_for('users.reset_request') }}" >Forgot Password?</a>
+    </h5>
+    <p>
+        Don't have an account?  <a href="/register"> Registration > </a>
+    </p>
+    </form>
+
+    <br class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <a style="text-align: center;" href="{{ url_for('main.index') }}">Go back to home page</a>
+    </div>
+</div>
+    <br><br>
+    <hr class="hidden-xs">
+    <br class="hidden-xs">
+    <br class="hidden-xs">
+
+<!-- Vendor JS Files -->
+<script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="static/assets/js/main.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="static/new/assets/js/jquery-latest.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="static/new/assets/js/bootstrap.min.js"></script>
+<script src="static/new/assets/js/core.js"></script>
+<script src="static/new/assets/js/carousel.js"></script>
+
+</body>
+
+</html>
+
+    

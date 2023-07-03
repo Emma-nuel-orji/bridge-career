@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cool</title>
+ 
+</head>
+<body>
+    <h2>Review Your Form Data</h2>
+
+    <p>Name: {{ form_data.name }}</p>
+    <p>Email: {{ form_data.email }}</p>
+    <!-- Add more form fields as needed -->
+    
+    <form action="/home" method="post">
+        {% for key, value in form_data.items() %}
+            <input type="hidden" name="{{ key }}" value="{{ value }}">
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
